@@ -1,0 +1,98 @@
+.login-box
+{
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.login-title
+{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #2EB66C;
+    font-weight: 600;
+}
+
+.login-box .error
+{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 12px;
+}
+            
+.login-box .form-group {
+  display: block;
+  margin: 0px !important;
+  padding: 10px 20px 10px 20px;
+  
+}
+
+.login-box .form-group a{
+  font-size: 12px;
+}
+
+.login-box label{
+    margin: 0px !important;
+    margin-top: 5px !important;
+    color: dimgray;
+}
+
+.login-box input{
+    border:none !important;
+    border-bottom: 1px solid cadetblue !important;    
+    border-radius: 0px !important;
+    outline: none !important;        
+    background: transparent !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}
+
+.login-box input:focus {
+    background: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    
+}
+
+@media only screen and (min-width: 64em)
+{
+    form button[type="button"]
+    {
+        width: 200px;       
+    }
+    
+}
+
+@media only screen and (max-width: 63.999em)
+{
+ form button[type="button"]
+    {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 63.999em) and (min-width: 47.51em)
+{
+    form button[type="button"]
+    {
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 47.5em)
+{
+    form button[type="button"]
+    {
+        width: 80%;
+    }
+    
+}
+
+

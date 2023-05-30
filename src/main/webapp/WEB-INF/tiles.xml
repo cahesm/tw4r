@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition"
+		template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/topHeader.jsp" />					
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Home" />                
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+        <definition name="login" extends="base.definition">
+		<put-attribute name="title" value="Credenciais" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+        <definition name="register" extends="base.definition">
+		<put-attribute name="title" value="Registro" />
+		<put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />
+	</definition>
+        <definition name="terms" extends="base.definition">
+		<put-attribute name="title" value="Termos" />
+		<put-attribute name="body" value="/WEB-INF/jsp/terms.jsp" />
+	</definition>
+	<definition name="contact" extends="base.definition">
+		<put-attribute name="title" value="Contact Manager" />
+		<put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
+	</definition>
+
+	<definition name="hello" extends="base.definition">
+		<put-attribute name="title" value="TW4R" />                
+                            
+		<put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />
+	</definition>
+                        
+        <definition name="offers" extends="base.definition">
+		<put-attribute name="title" value="Ofertas" />
+		<put-attribute name="body" value="/WEB-INF/jsp/offers.jsp" />
+	</definition>
+        
+        <definition name="account" extends="base.definition">
+		<put-attribute name="title" value="Conta" />
+		<put-attribute name="body" value="/WEB-INF/jsp/account.jsp" />
+	</definition>
+        <definition name="validate" extends="base.definition">
+		<put-attribute name="title" value="Validar Conta" />
+		<put-attribute name="body" value="/WEB-INF/jsp/validateAccount.jsp" />
+	</definition>
+        
+        <definition name="hotel" extends="base.definition">
+		<put-attribute name="title" value="Hoteis" />
+		<put-attribute name="body" value="/WEB-INF/jsp/hotel.jsp" />
+	</definition>
+                
+        <definition name="addHotel" extends="base.definition">
+		<put-attribute name="title" value="Hoteis" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registerHotel.jsp" />
+	</definition>
+        
+        <definition name="editHotel" extends="base.definition">
+		<put-attribute name="title" value="Hoteis" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editHotel.jsp" />
+	</definition>
+        
+        <definition name="unit" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/unit.jsp" />
+	</definition>
+        
+        <definition name="managerUnit" extends="base.definition">
+		<put-attribute name="title" value="Gerenciar Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/managerUnits.jsp" />
+	</definition>
+        
+        <definition name="managerReservation" extends="base.definition">
+		<put-attribute name="title" value="Gerenciar Reservas" />
+		<put-attribute name="body" value="/WEB-INF/jsp/managerReservations.jsp" />
+	</definition>
+        
+        <definition name="managerUser" extends="base.definition">
+		<put-attribute name="title" value="Gerenciar Usuários" />
+		<put-attribute name="body" value="/WEB-INF/jsp/managerUsers.jsp" />
+	</definition>
+        
+        <definition name="managerFaq" extends="base.definition">
+		<put-attribute name="title" value="Gerenciar Dúvidas" />
+		<put-attribute name="body" value="/WEB-INF/jsp/managerFaqs.jsp" />
+	</definition>
+        
+         <definition name="unitReservation" extends="base.definition">
+		<put-attribute name="title" value="Reservas da Unidade" />
+		<put-attribute name="body" value="/WEB-INF/jsp/unitReservations.jsp" />
+	</definition>
+        
+        <definition name="validateUnit" extends="base.definition">
+		<put-attribute name="title" value="Validar Unidade" />
+		<put-attribute name="body" value="/WEB-INF/jsp/validateUnit.jsp" />
+	</definition>
+        
+        <definition name="reservation" extends="base.definition">
+		<put-attribute name="title" value="Reservas" />
+		<put-attribute name="body" value="/WEB-INF/jsp/reservation.jsp" />
+	</definition>
+        
+        <definition name="addUnit" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registerUnit.jsp" />
+	</definition>
+        <definition name="addReservation" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registerReservation.jsp" />
+	</definition>
+        
+        <definition name="addFaq" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registerFaq.jsp" />
+	</definition>
+        
+        <definition name="editUnit" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editUnit.jsp" />
+	</definition>
+        
+        <definition name="editFaq" extends="base.definition">
+		<put-attribute name="title" value="Unidades" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editFaq.jsp" />
+	</definition>
+        
+        <definition name="showUnit" extends="base.definition">
+		<put-attribute name="title" value="Detalhes da Unidade" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showUnit.jsp" />
+	</definition>
+        
+        <definition name="showUser" extends="base.definition">
+		<put-attribute name="title" value="Detalhes do Usuário" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showUser.jsp" />
+	</definition>
+        
+        <definition name="showReservation" extends="base.definition">
+		<put-attribute name="title" value="Detalhes da Reserva" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showReservation.jsp" />
+	</definition>
+        
+        <definition name="forgotPassword" extends="base.definition">
+		<put-attribute name="title" value="Recuperação de Senha" />
+		<put-attribute name="body" value="/WEB-INF/jsp/forgotPassword.jsp" />
+	</definition>
+        
+        <definition name="requestHotel" extends="base.definition">
+		<put-attribute name="title" value="Requisição de Cadastro de Hotel" />
+		<put-attribute name="body" value="/WEB-INF/jsp/requestHotel.jsp" />
+	</definition>
+        
+        
+        <definition name="about" extends="base.definition">
+		<put-attribute name="title" value="Sobre" />
+		<put-attribute name="body" value="/WEB-INF/jsp/about.jsp" />
+	</definition>
+        <definition name="faq" extends="base.definition">
+		<put-attribute name="title" value="FAQ" />
+		<put-attribute name="body" value="/WEB-INF/jsp/faq.jsp" />
+	</definition>
+        <definition name="privacy" extends="base.definition">
+		<put-attribute name="title" value="Privacidade" />
+		<put-attribute name="body" value="/WEB-INF/jsp/privacy.jsp" />
+	</definition>
+        <definition name="noOwnerPermission" extends="base.definition">
+		<put-attribute name="title" value="Sem Permissão" />
+		<put-attribute name="body" value="/WEB-INF/jsp/noOwnerPermission.jsp" />
+	</definition>
+        <definition name="noAdminPermission" extends="base.definition">
+		<put-attribute name="title" value="Sem Permissão" />
+		<put-attribute name="body" value="/WEB-INF/jsp/noAdminPermission.jsp" />
+	</definition>
+
+</tiles-definitions>

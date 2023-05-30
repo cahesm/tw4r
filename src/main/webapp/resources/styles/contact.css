@@ -1,0 +1,103 @@
+.contact-box
+{
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.contact-title
+{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #2EB66C;
+    font-weight: 600;
+}
+
+.contact-box .error
+{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 12px;
+}
+            
+.contact-box .form-group {
+  display: block;
+  margin: 0px !important;
+  padding: 10px 20px 10px 20px;
+  
+}
+
+.contact-box .form-group a{
+  font-size: 12px;
+}
+
+.contact-box label{
+    margin: 0px !important;
+    margin-top: 5px !important;
+    color: dimgray;
+}
+
+.contact-box input{
+    border:none !important;
+    border-bottom: 1px solid cadetblue !important;    
+    border-radius: 0px !important;
+    outline: none !important;        
+    background: transparent !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}
+
+.contact-box textarea{
+    padding-top: 10px !important;
+}
+
+.contact-box input:focus {
+    background: transparent !important;
+}
+
+.contact-box input:-webkit-autofill,
+.contact-box input:-webkit-autofill:hover,
+.contact-box input:-webkit-autofill:focus,
+.contact-box input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    
+}
+
+@media only screen and (min-width: 64em)
+{
+    .contact-box form button[type="button"]
+    {
+        width: 200px;       
+    }
+    
+}
+
+@media only screen and (max-width: 63.999em)
+{
+ .contact-box form button[type="button"]
+    {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 63.999em) and (min-width: 47.51em)
+{
+    .contact-box form button[type="button"]
+    {
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 47.5em)
+{
+    .contact-box form button[type="button"]
+    {
+        width: 80%;
+    }
+    
+}
+
+
